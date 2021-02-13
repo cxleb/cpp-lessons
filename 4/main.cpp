@@ -1,4 +1,5 @@
 #include "cstdint"
+#include "cstdio"
 
 /*
 
@@ -51,5 +52,20 @@ void main(int argc, const char** argv)
     int64_t uLong = 3; // 64 bit signed integer
 
     // now in the previous example, i lied, there is no way to guarantee that a `long` is actually
-    // 64 bits. so we have the stdint.h or for c++ cstdint 
+    // 64 bits. so we have the stdint.h or for c++ cstdint, as used above
+
+    // what removing or including code?
+
+#define INCLUDE_OUR_THING_PLS
+#ifdef INCLUDE_OUR_THING_PLS // checks if a define happened
+
+    printf("Included our thing\n"); // if you defined it, this will be included
+
+#else
+
+    printf("Didnt include our thing\n"); // if you comment it out, this will be included
+
+    // on a modern ide this section should be "greyed out"
+
+#endif
 }
