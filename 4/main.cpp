@@ -19,7 +19,8 @@
 
     #include - includes a file into your compilation unit, doesnt have to 
             be a header file
-    #pragma - 
+    #pragma - compiler directive, can be used for a bunch of stuff, commonly
+    
 
     they all start with a hashtag and they do some funky stuff
 
