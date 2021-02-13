@@ -1,0 +1,14 @@
+ 1, compiling c++
+ 2, header files
+ 3, general c++ features
+ 4, data types and pre processors
+ 5, pointers
+ 6, memory management
+ 7, references
+ 8, object oriented structures
+ 9, c vs c++
+10, c and c++ standard libraries
+11, standard template library
+12, operator overloading
+13, RAII and RTTI
+
