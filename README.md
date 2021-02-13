@@ -3,7 +3,7 @@
 Each lesson has its own folder with its own code and own build script.
 I suggest cloning this so you can view it in a text editor like VS Code.
 
-## The 13 Lessons, with no so serious names
+## The 13 Lessons, with not so serious names
 1. why is c++ so hard to compile
 2. what is a header file and why the fuck do they exist
 3. cpp is just java but better and harder

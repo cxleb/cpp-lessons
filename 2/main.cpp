@@ -76,6 +76,25 @@
     talk about that later too
 */
 
+/*
+
+    So now we know about why theyre a pain in the ass. how do we use them?
+
+    there are two main ways,
+
+    #include "file.h" 
+    
+    this method is the c style way and is for including header files 
+    you made and c std library files 
+
+    and 
+    
+    #include <file>
+
+    this method is for including c++ std library and stl files and c std library files
+    can also be included but with a c in the front
+
+*/
 
 int main(int argc, char** argv)
 {

@@ -1,4 +1,4 @@
-#include "cstdio"
+#include "cstdint"
 
 /*
 
@@ -20,19 +20,36 @@
     #include - includes a file into your compilation unit, doesnt have to 
             be a header file
     #pragma - compiler directive, can be used for a bunch of stuff, commonly
-    
+            used to stop multi file inclusion
 
     they all start with a hashtag and they do some funky stuff
 
+    like? 
 
+    change the name of data types, or anything for that matter
 
+    remove entire sections of code, useful for cross-platform code
+    
+    or include entire sections of code
 
-
-
-
+        note: this code is actually removed from the compiler, it isnt compiler
 */
+
+// lets start with some weird stuff
+#define smallboy int
+#define bigboy long
 
 void main(int argc, const char** argv)
 {
+    // try doing this in java
+    smallboy what = 2;
+    bigboy excuseMe = 2;
 
+    // obviously this is stupid, but it can be used for more useful naming of variables
+
+    uint32_t uInt = 2; // 32 bit unsigned integer
+    int64_t uLong = 3; // 64 bit signed integer
+
+    // now in the previous example, i lied, there is no way to guarantee that a `long` is actually
+    // 64 bits. so we have the stdint.h or for c++ cstdint 
 }
