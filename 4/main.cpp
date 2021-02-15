@@ -40,7 +40,7 @@
 #define smallboy int
 #define bigboy long
 
-void main(int argc, const char** argv)
+int main(int argc, const char** argv)
 {
     // try doing this in java
     smallboy what = 2;
@@ -68,4 +68,6 @@ void main(int argc, const char** argv)
     // on a modern ide this section should be "greyed out"
 
 #endif
+
+    return 0;
 }

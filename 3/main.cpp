@@ -33,7 +33,7 @@ void otherFunction()
 // argv is the "argument vector" which is another fancy way
 // of saying array of arrays. well cover star syntax in a later
 // lesson
-void main(int argc, const char** argv)
+int main(int argc, const char** argv)
 {
     // basic data types, note these are signed
     bool aBoolean = false; // "1" bit, its really 8 but it behaves like 1
@@ -88,6 +88,8 @@ void main(int argc, const char** argv)
             printf("Also default, this should not happen?.\n");     
     }
 
-    printf("Anyway, most of the basic features are the same, everything from this point on is different\n");     
+    printf("Anyway, most of the basic features are the same, everything from this point on is different\n");   
+
+    return 0;  
 
 }
